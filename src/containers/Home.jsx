@@ -1,5 +1,4 @@
-import React from "react";
-import { Navbar } from "../containers";
+import { Navbar } from "./containers";
 
 const Home = () => {
   return (

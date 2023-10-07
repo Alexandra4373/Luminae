@@ -1,9 +1,8 @@
-import React from "react";
 import { Logo, Luminae } from "../assets";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="bg-black">
       <div className="">
         <div className="">
           <div className="">
