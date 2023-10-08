@@ -1,6 +1,5 @@
 // import React from "react";
-import Logo from "../assets";
-import Luminae from "../assets";
+import { Logo, Luminae } from "../assets";
 
 const Navbar = () => {
   return (
