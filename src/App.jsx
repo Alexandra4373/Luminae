@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import { Navbar } from "./components/Navbar.jsx";
 // import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
           <Route path="Home" element={<Home />} />
         </Routes>
       </React.Fragment> */}
+      <Navbar />
     </>
   );
 }
