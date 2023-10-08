@@ -1,9 +1,18 @@
-import React from "react";
+// import React from "react";
+import Logo from "../assets";
+import Luminae from "../assets";
 
 const Navbar = () => {
   return (
-    <div>
-      <h1 className="text-white">bedbihofbbvn</h1>
+    <div className="">
+      <div className="">
+        <div className="">
+          <div className="">
+            <img src={Logo} />
+            <img src={Luminae} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
