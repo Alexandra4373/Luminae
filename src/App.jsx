@@ -1,16 +1,15 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import { Home } from "./containers/Home";
-// import { About, Blog, Contact } from "./containers";
+import "./index.css";
+// import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <React.Fragment>
+      {/* <React.Fragment>
         <Routes>
           <Route path="Home" element={<Home />} />
         </Routes>
-      </React.Fragment>
+      </React.Fragment> */}
     </>
   );
 }
