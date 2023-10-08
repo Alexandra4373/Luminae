@@ -38,7 +38,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="">
+          <div className="gap-5">
             <img src={Social} />
           </div>
         </div>
