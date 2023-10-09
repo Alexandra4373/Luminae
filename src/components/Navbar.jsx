@@ -15,7 +15,7 @@ const Navbar = () => {
               <input type="text" id="search" placeholder="Search products" />
             </label>
             <br />
-            <label></label>
+
             <select id="category">
               <option value="all">All Categories</option>
               <option value="category1">Category 1</option>
