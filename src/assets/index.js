@@ -7,5 +7,19 @@ import Men from "./Men cosmetic.png";
 import Fav from "./Fav.png";
 import Sign from "./Sign in.png";
 import Cart from "./Cart.png";
+import header from "./header.png";
+import shop from "./Shop now.png";
 
-export { Logo, Luminae, Social, Search, Category, Men, Fav, Sign, Cart };
+export {
+  Logo,
+  Luminae,
+  Social,
+  Search,
+  Category,
+  Men,
+  Fav,
+  Sign,
+  Cart,
+  header,
+  shop,
+};
