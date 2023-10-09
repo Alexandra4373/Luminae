@@ -10,12 +10,12 @@ const Home = () => {
           <Navbar />
           <Categories />
 
-          <div className="container flex">
-            <div className="flex-1">
+          <div className="container flex py-10 text-white">
+            <div className="flex-1 m-0">
               <img src={header} />
             </div>
 
-            <div className="flex-1 bg-primary items-center justify-center">
+            <div className="flex-1 m-0 bg-primary  justify-center text-center ">
               <h1>KIMONOS,CAFTANS & PAREOS</h1>
               <h4>Poolside glam included From $4.99</h4>
               <div className="flex">
