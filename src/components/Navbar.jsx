@@ -1,26 +1,27 @@
 // import React from "react";
-import { Logo, Luminae, Social } from "../assets";
+import { Logo, Luminae, Social, Search } from "../assets";
 
 const Navbar = () => {
   return (
     <div className="">
-      <div className="">
-        <div className="container flex flex row ">
+      <div className="container">
+        <div className=" flex  items-center justify-between  py-4 ">
           <div className="flex gap-5">
             <img src={Logo} />
             <img src={Luminae} />
           </div>
-          <div className="flex-1">
+          <div className="flex border rounded">
             <label>
               <input type="text" id="search" placeholder="Search products" />
             </label>
             <br />
-            <label>Select Category:</label>
+            <label></label>
             <select id="category">
               <option value="all">All Categories</option>
               <option value="category1">Category 1</option>
               <option value="category2">Category 2</option>
             </select>
+            <img src={Search} className="w-1/6 h-1/6" />
           </div>
           <div className="">
             <ul className=" flex gap-10">

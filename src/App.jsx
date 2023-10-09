@@ -1,5 +1,5 @@
-import React from "react";
-import { Navbar } from "./components";
+import { Navbar, Categories } from "./components";
+
 // import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
         </Routes>
       </React.Fragment> */}
       <Navbar />
+      <Categories />
     </>
   );
 }
