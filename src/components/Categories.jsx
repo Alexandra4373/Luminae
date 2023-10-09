@@ -1,12 +1,12 @@
 import React from "react";
-import { Category, Men } from "../assets";
+import { Category, Men, Fav, Sign, Cart } from "../assets";
 
 const Categories = () => {
   return (
     <div>
       <div className="bg-black">
         <div className="container  text-white">
-          <div className="flex items-center ">
+          <div className="flex items-center py-4">
             <img src={Category} />
             <h4 className="">Categories</h4>
 
@@ -32,8 +32,37 @@ const Categories = () => {
                 </div>
               </div>
             </div>
+
+            <div className="flex gap-5">
+              <div className="flex">
+                <img src={Sign} />
+                <p>Sign in</p>
+              </div>
+              <div className="flex">
+                <img src={Fav} />
+                <p>Favorites</p>
+              </div>
+              <div className="flex">
+                <img src={Cart} />
+                <p>Cart</p>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+
+      <div className="container">
+        <ul className="flex items-center justify-between">
+          <li>Woman</li>
+          <li>Male</li>
+          <li>Mother & Furniture</li>
+          <li>SuperMarket</li>
+          <li>Cosmetics</li>
+          <li>Shoe & Bag</li>
+          <li>Electronic</li>
+          <li>Sport % Outdoor</li>
+          <li>Best Seller</li>
+        </ul>
       </div>
     </div>
   );
