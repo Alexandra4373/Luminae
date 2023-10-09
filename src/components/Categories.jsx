@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Category, Men, Fav, Sign, Cart } from "../assets";
 
 const Categories = () => {
@@ -53,14 +54,16 @@ const Categories = () => {
 
       <div className="container">
         <ul className="flex items-center justify-between">
-          <li>Woman</li>
+          <li>
+            <Link to="/women">Women</Link>
+          </li>
           <li>Male</li>
           <li>Mother & Furniture</li>
           <li>SuperMarket</li>
           <li>Cosmetics</li>
           <li>Shoe & Bag</li>
           <li>Electronic</li>
-          <li>Sport % Outdoor</li>
+          <li>Sport & Outdoor</li>
           <li>Best Seller</li>
         </ul>
       </div>
