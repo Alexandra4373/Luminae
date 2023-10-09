@@ -1,4 +1,4 @@
-import { Navbar, Categories, SubCategories } from "./components";
+import { Home } from "./containers";
 // import React from "react";
 // import { Routes, Route } from "react-router-dom";
 // import SubCategories from "./components/SubCategories";
@@ -13,8 +13,7 @@ function App() {
           <Route path="/women" element={<SubCategories />} />
         </Routes>
       </React.Fragment> */}
-      <Navbar />
-      <Categories />
+      <Home />
     </>
   );
 }
