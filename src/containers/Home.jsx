@@ -1,7 +1,7 @@
 // import React from 'react'
 import { Navbar, Categories } from "../components";
 import { header, shop } from "../assets";
-import homeData from "../components/Data/HomeData.jsx";
+import { homeData } from "../components/Data/HomeData";
 
 const Home = () => {
   return (

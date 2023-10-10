@@ -4,9 +4,10 @@ export const HomeData = [
     id: 1,
     name: "Tonny Black",
     image: tonny,
-    tag: "Vegetable",
-    initialprice: "24.00",
-    sellingprice: "13.00",
+    details: "Shoulder's whilte bag plain",
+    sellingprice: "69.99",
+    initialprice: "129.99",
+    discount: "-40%",
   },
   {
     id: 2,
