@@ -6,7 +6,7 @@ const Categories = () => {
   return (
     <div>
       <div className="bg-black">
-        <div className="container  text-white">
+        <div className="container text-white">
           <div className="flex items-center py-4">
             <img src={Category} />
             <h4 className="">Categories</h4>

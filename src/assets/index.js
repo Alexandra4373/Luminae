@@ -9,6 +9,10 @@ import Sign from "./Sign in.png";
 import Cart from "./Cart.png";
 import header from "./header.png";
 import shop from "./Shop now.png";
+import reebok from "./Reebok.png";
+import patso from "./Patso.png";
+import tonny from "./Tonny.png";
+import sketchers from "./sketchers.png";
 
 export {
   Logo,
@@ -22,4 +26,8 @@ export {
   Cart,
   header,
   shop,
+  reebok,
+  patso,
+  tonny,
+  sketchers,
 };

@@ -9,7 +9,7 @@ export default {
 
     fontFamily: {
       open: ["Open Sans", "sans-serif"],
-      inter: ["Epilogue", "sans-serif"],
+      inter: ["inter", "sans-serif"],
     },
     extend: {
       container: {
