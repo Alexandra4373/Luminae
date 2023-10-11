@@ -1,7 +1,7 @@
 // import React from 'react'
 import { Navbar, Categories } from "../components";
 import { header, shop } from "../assets";
-import { homeData } from "../components/Data/HomeData";
+// import HomeData from "../components/Data/HomeData";
 
 const Home = () => {
   return (
@@ -30,38 +30,6 @@ const Home = () => {
           <div className="">
             <div className="">
               <h1 className="">Flash Sales</h1>
-            </div>
-            <div className="">
-              {homeData.map((product) => (
-                <div className="" key={product.id}>
-                  {/* Product Image */}
-                  <div className="">
-                    <img src={product.image} alt={product.name} />
-                  </div>
-
-                  {/* Product Information */}
-                  <div className="">
-                    {/* Product Name */}
-                    <p className="">{product.name}</p>
-
-                    {/* Product Details */}
-                    <p className="">{product.details}</p>
-
-                    {/* Price Section */}
-                    <div className="">
-                      {/* Selling Price */}
-                      <p className="">{product.sellingprice}</p>
-
-                      {/* Initial Price (with strikethrough) */}
-                      <p className="">
-                        <span className="strikethrough">
-                          {product.initialprice}
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </div>
