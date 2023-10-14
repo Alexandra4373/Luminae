@@ -1,4 +1,4 @@
-import { reebok, patso, tonny, sketchers } from "../../assets";
+import { reebok, patso, tonny, sketchers } from "../assets";
 export const HomeData = [
   {
     id: 1,
