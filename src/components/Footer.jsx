@@ -22,8 +22,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex-1">
-            <ul>
-              <li>How to Buy</li>
+            <p className="lato text-[14px] font-bold mb-5">How to buy</p>
+            <ul className="lato text-[14px] font-normal">
               <li>Making Payments</li>
               <li>Delivering</li>
               <li>Buyer Protection</li>
@@ -31,8 +31,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex-1">
-            <ul>
-              <li>Help</li>
+            <p className="lato text-[14px] font-bold mb-5">Help</p>
+            <ul className="lato text-[14px] font-normal">
               <li>Contact Us</li>
               <li>FAQ</li>
               <li>Privacy Policy</li>
