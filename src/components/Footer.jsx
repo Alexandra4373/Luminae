@@ -45,6 +45,14 @@ const Footer = () => {
         <div className="">
           <img src={pay} />
         </div>
+
+        <div className="">
+          <select id="" className="text-white">
+            <option value="all">English</option>
+            <option value="category1"></option>
+            <option value="category2"></option>
+          </select>
+        </div>
       </div>
     </div>
   );
