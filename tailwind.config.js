@@ -7,6 +7,8 @@ export default {
       second: "#4172DC",
       white: "#fff",
       black: "#000",
+      gray: "#D1E2EB",
+      secondary: "7296AB",
     },
 
     fontFamily: {
@@ -16,10 +18,11 @@ export default {
     },
     extend: {
       container: {
-        padding: "1rem",
+        padding: "2rem",
         center: true,
       },
       screens: {
+        xs: "370px",
         sm: "640px",
         md: "1060px",
         lg: "1200px",
