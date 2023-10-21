@@ -13,6 +13,7 @@ import reebok from "./Reebok.png";
 import patso from "./Patso.png";
 import tonny from "./Tonny.png";
 import sketchers from "./sketchers.png";
+import pay from "./payment methods.png";
 
 export {
   Logo,
@@ -30,4 +31,5 @@ export {
   patso,
   tonny,
   sketchers,
+  pay,
 };

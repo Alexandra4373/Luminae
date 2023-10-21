@@ -1,3 +1,4 @@
+import pay from "../assets";
 const Footer = () => {
   return (
     <div>
@@ -38,6 +39,11 @@ const Footer = () => {
               <li>Privacy Policy</li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div className="">
+        <div className="">
+          <img src={pay} />
         </div>
       </div>
     </div>
