@@ -1,9 +1,12 @@
+// import react from "react";
 import pay from "../assets";
+import social from "../assets";
+
 const Footer = () => {
   return (
     <div>
       <div className=" container py-20 p-20">
-        <div className="flex gap-10">
+        <div className="flex sm:flex-wrap gap-10">
           <div className="flex-1 ">
             <p className="lato text-[14px] font-bold mb-5">Company</p>
             <ul className="lato text-[14px] font-normal ">
@@ -41,7 +44,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="">
+
+      <div className="flex justify-between sm:flex-wrap">
         <div className="">
           <img src={pay} />
         </div>
@@ -52,6 +56,20 @@ const Footer = () => {
             <option value="category1"></option>
             <option value="category2"></option>
           </select>
+        </div>
+
+        <hr className="mb-24" />
+
+        <div className="flex sm:flex-wrap gap-5">
+          <div className="">
+            <p>165-179 Forster Road City of Monash, Melbourne, Australia</p>
+          </div>
+          <div className="">
+            <p>©2023 Copyright in reserved for lumine shop</p>
+          </div>
+          <div className="">
+            <img src={social} />
+          </div>
         </div>
       </div>
     </div>

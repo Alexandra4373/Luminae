@@ -14,6 +14,7 @@ import patso from "./Patso.png";
 import tonny from "./Tonny.png";
 import sketchers from "./sketchers.png";
 import pay from "./payment methods.png";
+import social from "./social media.png";
 
 export {
   Logo,
@@ -32,4 +33,5 @@ export {
   tonny,
   sketchers,
   pay,
+  social,
 };
