@@ -1,6 +1,5 @@
 // import react from "react";
-import pay from "../assets";
-import social from "../assets";
+import { pay, social } from "../assets";
 
 const Footer = () => {
   return (
