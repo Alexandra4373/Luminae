@@ -1,6 +1,6 @@
 // import React from 'react'
 import { Navbar, Categories, Footer } from "../components";
-import { header, shop } from "../assets";
+import { header, shop, Iphone, barbie, famous, throwback } from "../assets";
 // import HomeData from "../components/Data/HomeData";
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
 
       <Categories />
 
-      <div className="container flex text-white">
+      <div className="container  py-10 flex text-white">
         <div className="min-w-min">
           <img src={header} className="" />
         </div>
@@ -20,8 +20,8 @@ const Home = () => {
             <h1>KIMONOS,CAFTANS & PAREOS</h1>
             <h4>Poolside glam included From $4.99</h4>
           </div>
-          <div className="">
-            <button type="button" className="flex gap-5 bg-second px-4 py-2">
+          <div className="p-10">
+            <button type="button" className="flex gap-5 bg-second  px-4 py-2">
               <img src={shop} />
               <p>SHOP NOW</p>
             </button>
@@ -37,6 +37,71 @@ const Home = () => {
         <div className="bg-[#fff]">
           <p>19 July-30 July</p>
         </div>
+      </div>
+      <div className="">
+        <div className="">
+          <p>
+            Never-Ending
+            <br />
+            Summer
+          </p>
+          <p>
+            Throwback Shirts &<br />
+            all-day dressed
+          </p>
+          <h6>Explore all category</h6>
+        </div>
+        <div className="">
+          <img src={throwback} />
+        </div>
+      </div>
+
+      <div className="">
+        <p>
+          The most
+          <br />
+          famous sport <br /> brands
+        </p>
+        <p>Get in gym essentials</p>
+
+        <h6>Explore all category</h6>
+        <img src={famous} />
+      </div>
+
+      <div className="flex items-center justify-between">
+        <p>
+          MAGSAFE <br />
+          Snap on a magnetic case, wallet, or both. And get faster <br />{" "}
+          wireless charging
+        </p>
+        <img src={Iphone} />
+      </div>
+
+      <div className="">
+        <div className="">
+          <p>
+            The Pinky
+            <br />
+            Barbie Edition
+          </p>
+          <p>Lets play dress up</p>
+          <h6>Explore all category</h6>
+        </div>
+        <div className="">
+          <img src={barbie} />
+        </div>
+      </div>
+
+      <div className="">
+        <p>
+          Best Sellers
+          <br />
+          Everyone Love
+        </p>
+        <p>poolside glam include</p>
+
+        <h6>Explore all category</h6>
+        {/* <img src={} /> */}
       </div>
 
       <Footer />

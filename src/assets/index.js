@@ -15,6 +15,10 @@ import tonny from "./Tonny.png";
 import sketchers from "./sketchers.png";
 import pay from "./payment methods.png";
 import social from "./social media.png";
+import Iphone from "./Iphone.png";
+import barbie from "./barbie.png";
+import famous from "./famous.png";
+import throwback from "./throwback.png";
 
 export {
   Logo,
@@ -34,4 +38,8 @@ export {
   sketchers,
   pay,
   social,
+  Iphone,
+  barbie,
+  famous,
+  throwback,
 };
