@@ -68,13 +68,17 @@ const Home = () => {
         <img src={famous} />
       </div>
 
-      <div className="flex items-center justify-between">
-        <p>
-          MAGSAFE <br />
-          Snap on a magnetic case, wallet, or both. And get faster <br />{" "}
-          wireless charging
-        </p>
-        <img src={Iphone} />
+      <div className="bg-mes">
+        <div className=" container">
+          <div className="flex items-center justify-between">
+            <p>
+              MAGSAFE <br />
+              Snap on a magnetic case, wallet, or both. And get faster <br />{" "}
+              wireless charging
+            </p>
+            <img src={Iphone} />
+          </div>
+        </div>
       </div>
 
       <div className="">

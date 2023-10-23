@@ -8,7 +8,8 @@ export default {
       white: "#fff",
       black: "#000",
       gray: "#D1E2EB",
-      secondary: "7296AB",
+      secondary: "#7296AB",
+      mes: "#F7DDD0",
     },
 
     fontFamily: {
@@ -21,12 +22,12 @@ export default {
         padding: "2rem",
         center: true,
       },
-      screens: {
-        xs: "370px",
-        sm: "640px",
-        md: "1060px",
-        lg: "1200px",
-      },
+      // screens: {
+      //   xs: "370px",
+      //   sm: "640px",
+      //   md: "1060px",
+      //   lg: "1200px",
+      // },
     },
   },
   plugins: [],
