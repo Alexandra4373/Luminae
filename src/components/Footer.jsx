@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <div className="py-20">
         <div className="flex flex-col items-center justify-center ">
-          <button>
+          <button className="border rounded ">
             <p>Luminae Store</p>
             <p>
               Read your email not to miss the last minutes off + Free delivery
@@ -59,11 +59,11 @@ const Footer = () => {
           </div>
         </div>
         <div className="container py-10">
-          <div className="flex  justify-between sm:flex-wrap">
+          <div className="flex items-center sm:flex-wrap">
             <div className="">
               <img src={pay} />
             </div>
-            <div className="">
+            <div className="flex-1 flex justify-end">
               <select id="" className="text-black">
                 <option value="all">English</option>
                 <option value="category1"></option>
