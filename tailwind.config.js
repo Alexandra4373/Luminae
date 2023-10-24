@@ -10,6 +10,8 @@ export default {
       gray: "#D1E2EB",
       secondary: "#7296AB",
       mes: "#F7DDD0",
+      pinky: "#D11FB5",
+      blue: "#0186C4",
     },
 
     fontFamily: {

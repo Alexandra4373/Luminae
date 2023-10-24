@@ -1,5 +1,5 @@
 // import react from "react";
-import { pay, social } from "../assets";
+import { pay, social, send } from "../assets";
 
 const Footer = () => {
   return (
@@ -14,6 +14,7 @@ const Footer = () => {
             <label>
               <input type="text" placeholder="Enter you email"></input>
             </label>
+            <img src={send} />
           </button>
         </div>
 

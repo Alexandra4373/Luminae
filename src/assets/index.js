@@ -20,6 +20,9 @@ import barbie from "./barbie.png";
 import famous from "./famous.png";
 import throwback from "./throwback.png";
 import best from "./best.png";
+import left from "./left.png";
+import right from "./right.png";
+import send from "./send.png";
 
 export {
   Logo,
@@ -44,4 +47,7 @@ export {
   famous,
   throwback,
   best,
+  left,
+  right,
+  send,
 };

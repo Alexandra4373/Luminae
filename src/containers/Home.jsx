@@ -8,6 +8,8 @@ import {
   famous,
   throwback,
   best,
+  left,
+  right,
 } from "../assets";
 // import HomeData from "../components/Data/HomeData";
 
@@ -79,20 +81,22 @@ const Home = () => {
       <div className="bg-mes">
         <div className=" container">
           <div className="flex items-center justify-between">
+            <img src={left} />
             <p>
               MAGSAFE <br />
               Snap on a magnetic case, wallet, or both. And get faster <br />{" "}
               wireless charging
             </p>
             <img src={Iphone} />
+            <img src={right} />
           </div>
         </div>
       </div>
 
-      <div className="container">
-        <div className="flex gap-10">
+      <div className="container py-20">
+        <div className="flex gap-10 flex-row justify-center">
           <div className="flex">
-            <div className="flex-1 border rounded flex flex-col justify-center">
+            <div className="flex-1 border rounded bg-pinky flex flex-col justify-center">
               <p>
                 The Pinky
                 <br />
@@ -108,7 +112,7 @@ const Home = () => {
           </div>
 
           <div className="flex justify-end">
-            <div className="flex-1 border rounded flex flex-col justify-center">
+            <div className="flex-1 border rounded bg-blue flex flex-col justify-center">
               <p>
                 Best Sellers
                 <br />
