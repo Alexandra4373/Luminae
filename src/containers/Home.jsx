@@ -39,15 +39,18 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="">
-        <div className="">
-          <h4>Summer Essentials</h4>
-          <h5>20% off</h5>
+      <div className="relative ">
+        <div className="absolute top-1">
+          <button className="border ">
+            <h4>Summer Essentials</h4>
+            <h5>20% off</h5>
+            <p className="bg-black text-white">19 July-30 July</p>
+          </button>
         </div>
-        <div className="bg-[#fff]">
+        {/* <div className="bg-black">
           <p>19 July-30 July</p>
-        </div>
-      </div> */}
+        </div> */}
+      </div>
 
       <div className="flex  gap-10 flex-row items-center justify-center">
         <div className="flex">
