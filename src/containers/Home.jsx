@@ -89,31 +89,40 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex">
-        <div className="flex-1">
-          <p>
-            The Pinky
-            <br />
-            Barbie Edition
-          </p>
-          <p>Lets play dress up</p>
-          <h6>Explore all category</h6>
-        </div>
-        <div className="flex-1">
-          <img src={barbie} />
-        </div>
-      </div>
+      <div className="container">
+        <div className="flex gap-10">
+          <div className="flex">
+            <div className="flex-1 border rounded flex flex-col justify-center">
+              <p>
+                The Pinky
+                <br />
+                Barbie Edition
+              </p>
+              <p>Lets play dress up</p>
+              <h6>Explore all category</h6>
+            </div>
 
-      <div className="">
-        <p>
-          Best Sellers
-          <br />
-          Everyone Love
-        </p>
-        <p>poolside glam include</p>
+            <div className="flex-1">
+              <img src={barbie} />
+            </div>
+          </div>
 
-        <h6>Explore all category</h6>
-        <img src={best} />
+          <div className="flex justify-end">
+            <div className="flex-1 border rounded flex flex-col justify-center">
+              <p>
+                Best Sellers
+                <br />
+                Everyone Love
+              </p>
+              <p>poolside glam include</p>
+              <h6>Explore all category</h6>
+            </div>
+
+            <div className="flex-1">
+              <img src={best} />
+            </div>
+          </div>
+        </div>
       </div>
 
       <Footer />
