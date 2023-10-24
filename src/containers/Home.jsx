@@ -1,6 +1,14 @@
 // import React from 'react'
 import { Navbar, Categories, Footer } from "../components";
-import { header, shop, Iphone, barbie, famous, throwback } from "../assets";
+import {
+  header,
+  shop,
+  Iphone,
+  barbie,
+  famous,
+  throwback,
+  best,
+} from "../assets";
 // import HomeData from "../components/Data/HomeData";
 
 const Home = () => {
@@ -81,8 +89,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="">
-        <div className="">
+      <div className="flex">
+        <div className="flex-1">
           <p>
             The Pinky
             <br />
@@ -91,20 +99,21 @@ const Home = () => {
           <p>Lets play dress up</p>
           <h6>Explore all category</h6>
         </div>
-        <div className="">
+        <div className="flex-1">
           <img src={barbie} />
         </div>
       </div>
 
       <div className="">
-        <button>
+        <p>
           Best Sellers
           <br />
           Everyone Love
-          <p>poolside glam include</p>
-          <h6>Explore all category</h6>
-        </button>
-        {/* <img src={} /> */}
+        </p>
+        <p>poolside glam include</p>
+
+        <h6>Explore all category</h6>
+        <img src={best} />
       </div>
 
       <Footer />

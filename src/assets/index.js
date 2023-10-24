@@ -19,6 +19,7 @@ import Iphone from "./Iphone.png";
 import barbie from "./barbie.png";
 import famous from "./famous.png";
 import throwback from "./throwback.png";
+import best from "./best.png";
 
 export {
   Logo,
@@ -42,4 +43,5 @@ export {
   barbie,
   famous,
   throwback,
+  best,
 };
