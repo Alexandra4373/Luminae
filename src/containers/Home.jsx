@@ -39,7 +39,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="">
+      {/* <div className="">
         <div className="">
           <h4>Summer Essentials</h4>
           <h5>20% off</h5>
@@ -47,39 +47,46 @@ const Home = () => {
         <div className="bg-[#fff]">
           <p>19 July-30 July</p>
         </div>
-      </div>
-      <div className="">
-        <div className="">
-          <p>
-            Never-Ending
-            <br />
-            Summer
-          </p>
-          <p>
-            Throwback Shirts &<br />
-            all-day dressed
-          </p>
-          <h6>Explore all category</h6>
-        </div>
-        <div className="">
-          <img src={throwback} />
-        </div>
-      </div>
+      </div> */}
 
-      <div className="">
-        <p>
-          The most
-          <br />
-          famous sport <br /> brands
-        </p>
-        <p>Get in gym essentials</p>
+      <div className="flex flex-row items-center justify-center">
+        <div className="flex">
+          <div className="flex-1">
+            <p>
+              Never-Ending
+              <br />
+              Summer
+            </p>
+            <p>
+              Throwback Shirts &<br />
+              all-day dressed
+            </p>
+            <h6>Explore all category</h6>
+          </div>
+          <div className="flex-1">
+            <img src={throwback} />
+          </div>
+        </div>
 
-        <h6>Explore all category</h6>
-        <img src={famous} />
+        <div className="flex">
+          <div className="flex-1">
+            <p>
+              The most
+              <br />
+              famous sport <br /> brands
+            </p>
+            <p>Get in gym essentials</p>
+            <h6>Explore all category</h6>
+          </div>
+
+          <div className="flex-1">
+            <img src={famous} />
+          </div>
+        </div>
       </div>
 
       <div className="bg-mes">
-        <div className=" container">
+        <div className="container ">
           <div className="flex items-center justify-between">
             <img src={left} />
             <p>
@@ -96,7 +103,7 @@ const Home = () => {
       <div className="container py-20">
         <div className="flex gap-10 flex-row justify-center">
           <div className="flex">
-            <div className="flex-1 border rounded bg-pinky flex flex-col justify-center">
+            <div className="flex-1 border-none rounded-none bg-pinky flex flex-col justify-center ">
               <p>
                 The Pinky
                 <br />
@@ -112,7 +119,7 @@ const Home = () => {
           </div>
 
           <div className="flex justify-end">
-            <div className="flex-1 border rounded bg-blue flex flex-col justify-center">
+            <div className="flex-1 border-none rounded-none bg-blue flex flex-col justify-center">
               <p>
                 Best Sellers
                 <br />

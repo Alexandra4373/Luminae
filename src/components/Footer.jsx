@@ -11,10 +11,12 @@ const Footer = () => {
             <p>
               Read your email not to miss the last minutes off + Free delivery
             </p>
-            <label>
-              <input type="text" placeholder="Enter you email"></input>
-            </label>
-            <img src={send} />
+            <div className="flex justify-center">
+              <label>
+                <input type="text" placeholder="Enter you email"></input>
+              </label>
+              <img src={send} />
+            </div>
           </button>
         </div>
 

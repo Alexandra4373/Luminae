@@ -12,6 +12,8 @@ export default {
       mes: "#F7DDD0",
       pinky: "#D11FB5",
       blue: "#0186C4",
+      red: "#BF2E3B",
+      green: "#1D5159",
     },
 
     fontFamily: {
