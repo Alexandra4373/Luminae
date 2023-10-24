@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <div className="py-20">
-        <div className="flex flex-col items-center justify-center ">
+        <div className="flex flex-col items-center justify-center mb-[-30px] ">
           <button className="border rounded-md bg-secondary p-10 ">
             <p>Luminae Store</p>
             <p>
@@ -18,8 +18,8 @@ const Footer = () => {
         </div>
 
         <div className="bg-gray">
-          <div className=" container py-20 p-20">
-            <div className="flex sm:flex-wrap gap-10">
+          <div className=" container p-20">
+            <div className="flex item-center justify-center sm:flex-wrap gap-10">
               <div className="flex-1 ">
                 <p className="lato text-[14px] font-bold mb-5">Company</p>
                 <ul className="lato text-[14px] font-normal ">
