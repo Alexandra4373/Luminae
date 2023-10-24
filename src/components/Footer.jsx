@@ -6,13 +6,15 @@ const Footer = () => {
     <div>
       <div className="py-20">
         <div className="flex flex-col items-center justify-center ">
-          <p>Luminae Store</p>
-          <p>
-            Read your email not to miss the last minutes off + Free delivery
-          </p>
-          <label>
-            <input type="text" placeholder="Enter you email"></input>
-          </label>
+          <button>
+            <p>Luminae Store</p>
+            <p>
+              Read your email not to miss the last minutes off + Free delivery
+            </p>
+            <label>
+              <input type="text" placeholder="Enter you email"></input>
+            </label>
+          </button>
         </div>
 
         <div className="bg-gray">
