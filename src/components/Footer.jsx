@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <div className="py-20">
         <div className="flex flex-col items-center justify-center ">
-          <button className="border rounded ">
+          <button className="border rounded-md bg-secondary p-10 ">
             <p>Luminae Store</p>
             <p>
               Read your email not to miss the last minutes off + Free delivery
@@ -70,7 +70,7 @@ const Footer = () => {
                 <option value="category2"></option>
               </select>
             </div>
-            <hr className="mb-24 bg-black" />
+            <hr />
           </div>
         </div>
         <div className="container flex justify-between p-10">
