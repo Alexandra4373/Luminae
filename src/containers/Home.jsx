@@ -97,14 +97,13 @@ const Home = () => {
       </div>
 
       <div className="">
-        <p>
+        <button>
           Best Sellers
           <br />
           Everyone Love
-        </p>
-        <p>poolside glam include</p>
-
-        <h6>Explore all category</h6>
+          <p>poolside glam include</p>
+          <h6>Explore all category</h6>
+        </button>
         {/* <img src={} /> */}
       </div>
 
