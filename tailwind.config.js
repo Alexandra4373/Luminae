@@ -26,12 +26,12 @@ export default {
         padding: "2rem",
         center: true,
       },
-      // screens: {
-      //   xs: "370px",
-      //   sm: "640px",
-      //   md: "1060px",
-      //   lg: "1200px",
-      // },
+      screens: {
+        xs: "370px",
+        sm: "640px",
+        md: "1060px",
+        lg: "1200px",
+      },
     },
   },
   plugins: [],
