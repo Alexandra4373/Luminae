@@ -39,8 +39,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="relative ">
-        <div className="absolute top-1">
+      <div className=" ">
+        <div className="">
           <button className="border ">
             <h4>Summer Essentials</h4>
             <h5>20% off</h5>
