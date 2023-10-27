@@ -20,7 +20,7 @@ const Home = () => {
 
       <Categories />
 
-      <div className="container  py-10 flex text-white">
+      <div className="  py-10 flex text-white">
         <div className="min-w-min">
           <img src={header} className="" />
         </div>
