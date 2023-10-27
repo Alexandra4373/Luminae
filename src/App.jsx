@@ -1,4 +1,4 @@
-import { Home } from "./containers";
+import { Home, About } from "./containers";
 // import React from "react";
 // import { Routes, Route } from "react-router-dom";
 // import SubCategories from "./components/SubCategories";
@@ -14,6 +14,7 @@ function App() {
         </Routes>
       </React.Fragment> */}
       <Home />
+      <About />
     </>
   );
 }
