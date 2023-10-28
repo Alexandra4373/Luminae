@@ -1,5 +1,7 @@
 // import React from "react";
 import { Logo, Luminae, Social, Search } from "../assets";
+import { NavData } from "../data/NavData";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -23,8 +25,15 @@ const Navbar = () => {
             </select>
             <img src={Search} className="w-1/6 h-1/6" />
           </div>
-          <div className="">
-            <ul className=" flex gap-10">
+          <div className="gap-5">
+            {NavData.map((element) => {
+              return (
+                <NavLink to={element.link} key={element.id}>
+                  {element.name}
+                </NavLink>
+              );
+            })}
+            {/* <ul className=" flex gap-10">
               <li>
                 <a href="#About">About us</a>
               </li>
@@ -37,7 +46,7 @@ const Navbar = () => {
               <li>
                 <a href="#Help & Support">Help & Support</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div className="gap-5">
             <img src={Social} />
