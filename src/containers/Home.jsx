@@ -16,7 +16,7 @@ import {
 const Home = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <Categories />
 
