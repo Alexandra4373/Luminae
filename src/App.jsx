@@ -1,20 +1,21 @@
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 import { Home, About } from "./containers";
-// import React from "react";
-// import { Routes, Route } from "react-router-dom";
-// import SubCategories from "./components/SubCategories";
+import SubCategories from "./components/SubCategories";
 
 function App() {
   return (
     <>
-      {/* <React.Fragment>
+      <React.Fragment>
         <Routes>
-          <Route path="" element={<Navbar />} />
-          <Route path="" element={<Categories />} />
+          <Route path="/" element={<Home />} />
+          <Route path="" element={<About />} />
+          {/* <Route path="" element={<Categories />} /> */}
           <Route path="/women" element={<SubCategories />} />
         </Routes>
-      </React.Fragment> */}
-      <Home />
-      <About />
+      </React.Fragment>
+      {/* <Home />
+      <About /> */}
     </>
   );
 }
