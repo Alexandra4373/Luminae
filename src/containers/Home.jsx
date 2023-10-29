@@ -1,5 +1,5 @@
 // import React from 'react'
-import { Categories, Footer } from "../components";
+import { Navbar, Categories, Footer } from "../components";
 import {
   header,
   shop,
@@ -16,7 +16,7 @@ import {
 const Home = () => {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
 
       <Categories />
 
@@ -80,6 +80,10 @@ const Home = () => {
             </p>
             <p>Get in gym essentials</p>
             <h6>Explore all category</h6>
+          </div>
+
+          <div className="">
+            <p>Trending must-haves</p>
           </div>
 
           <div className="flex-1">
