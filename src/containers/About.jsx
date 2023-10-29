@@ -1,11 +1,11 @@
-import React from "react";
-import { Navbar, Categories, Footer } from "../components";
-import { header } from "../assets";
+// import React from "react";
+// import { Navbar, Categories, Footer } from "../components";
+// import { header } from "../assets";
 
 const About = () => {
   return (
     <div>
-      <div className="">
+      {/* <div className="">
         <Navbar />
         <Categories />
 
@@ -72,7 +72,7 @@ const About = () => {
         </div>
 
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 };
