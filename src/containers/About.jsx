@@ -20,6 +20,7 @@ const About = () => {
             <span>Online Shopping</span>
           </p>
           <p>At Luminae,</p>
+
           <div className="flex">
             <div className="flex-1">
               <p>20+</p>
@@ -49,25 +50,27 @@ const About = () => {
             <p>
               Tell us about you <br /> Concerns
             </p>
-            <label>
-              <input type="text" placeholder="Enter your name here">
-                Your Name
-              </input>
+            <label htmlFor="myInput">
+              {" "}
+              Your Name
+              <input type="text" placeholder="Enter your name here"></input>
             </label>
-            <label>
-              <input type="text" placeholder="Enter your email here">
-                Email
-              </input>
+            <label htmlFor="myInput">
+              {" "}
+              Your Email
+              <input type="text" placeholder="Enter your email here"></input>
             </label>
             <label>
               <input type="Tell us about your concerns">Description</input>
             </label>
             <button>SEND</button>
           </div>
+
           <div className="flex-1">
             <img src={header} />
           </div>
         </div>
+
         <Footer />
       </div>
     </div>
