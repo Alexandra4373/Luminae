@@ -55,7 +55,23 @@ const Home = () => {
         </div> */}
       </div>
 
-      <div className="flex  gap-10 flex-row items-center justify-center">
+      <div className="">
+        <p>Trending must-haves</p>
+
+        <div className="flex">
+          <div className="flex-1">
+            <img src={calvin} />
+          </div>
+          <div className="flex-1">
+            <img src={klein} />
+          </div>
+          <div className="flex-1">
+            <img src={coat} />
+          </div>
+        </div>
+      </div>
+
+      <div className="flex  py-20 gap-10 flex-row items-center justify-center">
         <div className="flex">
           <div className="flex-1 border-none rounded-none bg-red flex flex-col justify-center">
             <p>
@@ -83,22 +99,6 @@ const Home = () => {
             </p>
             <p>Get in gym essentials</p>
             <h6>Explore all category</h6>
-          </div>
-
-          <div className="">
-            <p>Trending must-haves</p>
-
-            <div className="flex">
-              <div className="flex-1">
-                <img src={calvin} />
-              </div>
-              <div className="flex-1">
-                <img src={klein} />
-              </div>
-              <div className="flex-1">
-                <img src={coat} />
-              </div>
-            </div>
           </div>
 
           <div className="flex-1">
