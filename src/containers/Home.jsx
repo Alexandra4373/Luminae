@@ -55,18 +55,19 @@ const Home = () => {
         </div> */}
       </div>
 
-      <div className="">
-        <p>Trending must-haves</p>
-
-        <div className="flex">
-          <div className="flex-1">
-            <img src={calvin} />
-          </div>
-          <div className="flex-1">
-            <img src={klein} />
-          </div>
-          <div className="flex-1">
-            <img src={coat} />
+      <div className="container">
+        <div className="">
+          <p>Trending must-haves</p>
+          <div className="flex gap-10">
+            <div className="flex-1">
+              <img src={calvin} />
+            </div>
+            <div className="flex-1">
+              <img src={klein} />
+            </div>
+            <div className="flex-1">
+              <img src={coat} />
+            </div>
           </div>
         </div>
       </div>
