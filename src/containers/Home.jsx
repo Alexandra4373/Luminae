@@ -11,6 +11,8 @@ import {
   left,
   right,
   calvin,
+  klein,
+  coat,
 } from "../assets";
 // import HomeData from "../components/Data/HomeData";
 
@@ -86,8 +88,16 @@ const Home = () => {
           <div className="">
             <p>Trending must-haves</p>
 
-            <div className="">
-              <img src={calvin} />
+            <div className="flex">
+              <div className="flex-1">
+                <img src={calvin} />
+              </div>
+              <div className="flex-1">
+                <img src={klein} />
+              </div>
+              <div className="flex-1">
+                <img src={coat} />
+              </div>
             </div>
           </div>
 
