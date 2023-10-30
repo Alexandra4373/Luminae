@@ -61,12 +61,27 @@ const Home = () => {
           <div className="flex gap-10">
             <div className="flex-1">
               <img src={calvin} />
+              <div className="bg-black text-white">
+                <p>Cool & Sexy Calvin Klein</p>
+                <p>Dotted dress-Casual</p>
+                <button>$89 Sho Now</button>
+              </div>
             </div>
             <div className="flex-1">
               <img src={klein} />
+              <div className="bg-black text-white">
+                <p>Cool & Sexy Calvin Klein</p>
+                <p>Dotted dress-Casual</p>
+                <button>$89 Sho Now</button>
+              </div>
             </div>
             <div className="flex-1">
               <img src={coat} />
+              <div className="bg-black text-white">
+                <p>Cool & Sexy Calvin Klein</p>
+                <p>Dotted dress-Casual</p>
+                <button>$89 Sho Now</button>
+              </div>
             </div>
           </div>
         </div>
