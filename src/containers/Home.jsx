@@ -10,6 +10,7 @@ import {
   best,
   left,
   right,
+  calvin,
 } from "../assets";
 // import HomeData from "../components/Data/HomeData";
 
@@ -84,6 +85,10 @@ const Home = () => {
 
           <div className="">
             <p>Trending must-haves</p>
+
+            <div className="">
+              <img src={calvin} />
+            </div>
           </div>
 
           <div className="flex-1">

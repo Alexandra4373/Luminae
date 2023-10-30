@@ -23,6 +23,9 @@ import best from "./best.png";
 import left from "./left.png";
 import right from "./right.png";
 import send from "./send.png";
+import calvin from "./Calvin.png";
+import klein from "./Klein.png";
+import coat from "./coat.png";
 
 export {
   Logo,
@@ -50,4 +53,7 @@ export {
   left,
   right,
   send,
+  calvin,
+  klein,
+  coat,
 };
