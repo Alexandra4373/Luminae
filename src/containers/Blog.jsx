@@ -37,6 +37,14 @@ const Blog = () => {
           excitement as a trendy fur coat took center stage during a vibrant
           photoshoot.
         </p>
+
+        <div className="">
+          <p>20 July 2023</p>
+          <p>830</p>
+          <p>19</p>
+        </div>
+
+        <button>READ MORE</button>
       </div>
     </div>
   );
