@@ -1,4 +1,5 @@
 export const NavData = [
+  { id: 2, name: "Home", link: "/" },
   { id: 1, name: "About us", link: "/about" },
   { id: 2, name: "Blog", link: "/blog" },
   { id: 3, name: "Contact us", link: "/contact" },

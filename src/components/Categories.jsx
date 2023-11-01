@@ -7,7 +7,7 @@ const Categories = () => {
     <div>
       <div className="bg-black">
         <div className="container ">
-          <div className="flex items-center py-4">
+          <div className="flex items-center py-4 gap-10">
             <img src={Category} />
             <h4 className="text-white">Categories</h4>
 
@@ -27,14 +27,14 @@ const Categories = () => {
 
               <div className="flex text-white">
                 <img src={Men} />
-                <div className="">
+                <div className="flex flex-col justify-center">
                   <p>Weekly Men's Toiletries Coupons</p>
                   <p>We extend exclusive discounts to our men clientele</p>
                 </div>
               </div>
             </div>
 
-            <div className="flex gap-5 text-white">
+            <div className="flex gap-5 text-white justify-end">
               <div className="flex">
                 <img src={Sign} />
                 <p>Sign in</p>

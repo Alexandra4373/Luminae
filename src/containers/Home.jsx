@@ -61,32 +61,42 @@ const Home = () => {
           <div className="flex gap-10">
             <div className="flex-1">
               <img src={calvin} />
-              <div className="flex bg-black text-white p-5 border-0 rounded-b-md">
+              <div className="flex bg-black text-white py-5 px-2 border-0 rounded-b-md">
                 <div className="flex-1 ">
                   <p className="text-[1rem] font-medium">
                     Cool & Sexy Calvin Klein
                   </p>
                   <p>Dotted dress-Casual</p>
                 </div>
-                <div className="flex-1 flex justify-center border rounded-md ">
+                <div className="flex-1 flex justify-center border rounded-md ml-2 ">
                   <button>$89 Shop Now</button>
                 </div>
               </div>
             </div>
             <div className="flex-1">
               <img src={klein} />
-              <div className="bg-black text-white">
-                <p>Cool & Sexy Calvin Klein</p>
-                <p>Dotted dress-Casual</p>
-                <button>$89 Sho Now</button>
+              <div className="flex bg-black text-white py-5 px-2 border-0 rounded-b-md">
+                <div className="flex-1 ">
+                  <p className="text-[1rem] font-medium">
+                    Cool & Sexy Calvin Klein
+                  </p>
+                  <p>Dotted dress-Casual</p>
+                </div>
+                <div className="flex-1 flex justify-center border rounded-md ml-2 ">
+                  <button>$89 Shop Now</button>
+                </div>
               </div>
             </div>
             <div className="flex-1">
               <img src={coat} />
-              <div className="bg-black text-white">
-                <p>Cool & Sexy Calvin Klein</p>
-                <p>Dotted dress-Casual</p>
-                <button>$89 Sho Now</button>
+              <div className="flex bg-black text-white py-5 px-2 border-0 rounded-b-md">
+                <div className="flex-1 ">
+                  <p className="text-[1rem] font-medium">beige coat Zara</p>
+                  <p>Cream-Brown-Formal</p>
+                </div>
+                <div className="flex-1 flex justify-center border rounded-md ml-2 ">
+                  <button>$89 Shop Now</button>
+                </div>
               </div>
             </div>
           </div>
